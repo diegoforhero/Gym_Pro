@@ -1,3 +1,4 @@
+# aqui definimos la clase Miembro y sus subclases MiembroBasico y MiembroPremium
 class Miembro:
     def __init__(self, codigo, nombre, apellido, edad, meses, activo, plan):
         self.__codigo = codigo
